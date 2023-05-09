@@ -1,0 +1,276 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Bree Serif', serif;
+  }
+  
+  /* wrapper section */
+  .wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+  }
+  
+  .logo a {
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: 'Forte';
+    color: #617A55;
+  }
+  
+  .menu {
+    float: right;
+  }
+  
+  nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: fixed;
+    top: 0;
+    background-image: url('https://images.unsplash.com/photo-1683143726325-ee14e56ab69c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=478&q=80');
+    background-position: center;
+    z-index: 9999;
+    border-bottom: 1px solid #364f6b;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  nav ul li {
+    float: left;
+  }
+  
+  nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+  }
+  
+  .kolom {
+    margin-top: 90px;
+    margin-bottom: 50px;
+  }
+  
+  .kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: #AA5656;
+  }
+  
+  h2 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #41644A;
+    width: 100%;
+    line-height: 50px;
+  }
+  
+  /* h3 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #364f6b;
+    width: 100%;
+    line-height: 50px;
+  } */
+  
+  h4 {
+    color: #8B008B;
+    font-family: Maiandra GD;
+  }
+  
+  .tbl-biru {
+    background: #1F8A70;
+    border-radius: 20px;
+    border-color: transparent;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+  
+  }
+  
+  .tbl-biru:hover {
+    background: #fc5185;
+    text-decoration: none;
+  }
+  
+  a.tbl-pink {
+    background: #fc5185;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  a.tbl-pink:hover {
+    background: #1F8A70;
+    text-decoration: none;
+  }
+  
+  p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+  }
+  
+  .tengah {
+    text-align: center;
+    width: 100%;
+  }
+  
+  .singer-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+  }
+  
+  .kartu-penyanyi {
+    width: 30%;
+    margin: 0 auto;
+  }
+  
+  .kartu-penyanyi img {
+    width: 70%;
+    border-radius: 50%;
+  }
+  
+  .kartu-penyanyi p {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    color: #364f6b;
+  }
+  
+  .kartu-penyanyi p:hover {
+    text-decoration: underline;
+  
+  }
+  
+  iframe {
+    border-radius: 5px
+  }
+  
+  div.polaroid {
+    width: 30%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 10px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  div.container {
+    text-align: center;
+    padding: 10px 10px;
+  }
+
+  div.container h4:hover{
+    text-decoration: underline;
+  }
+  
+
+  @media screen and (max-width: 991.98px) {
+    .wrapper {
+      width: 90%;
+    }
+  
+    .logo a {
+      display: block;
+      width: 100%;
+      text-align: center;
+      font-family: 'Forte';
+    }
+  
+    nav .menu {
+      width: 100%;
+      margin: 0;
+    }
+  
+    nav .menu ul {
+      text-align: center;
+      margin: auto;
+      line-height: 60px;
+    }
+  
+    nav .menu ul li {
+      display: inline-block;
+      float: none;
+    }
+  
+    section {
+      display: block;
+    }
+  
+    section img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+  
+    .kartu-penyanyi {
+      width: 100%;
+    }
+    
+    .kartu-penyanyi img {
+      display: block;
+      width: 100%;
+      height: auto;
+      border-radius: 50%;
+    }
+    
+    div.polaroid {
+    width: 50%;
+    }
+    
+    div.container {
+    text-align: center;
+    }
+  
+  }
+  
+  .tombol-menu {
+    position: absolute;
+    top: 1.7rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 20px;
+  }
